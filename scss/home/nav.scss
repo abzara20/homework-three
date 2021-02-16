@@ -1,0 +1,40 @@
+nav{
+    width: 900px;
+    height: 60px;
+    margin: 0 auto;
+    // background-color: crimson;
+    display: flex;
+    border-bottom: 2px solid $white;
+    justify-content: space-between;
+
+    .logo{
+        width: 92px;
+        height: 42px;
+        // background-color: cyan;
+        background-image: url(../images/logo/logo-white.png);
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+
+    .links{
+        width: 500px;
+        height: 42px;
+        // background-color: cyan;
+        align-self: center;
+        display: flex;
+
+        a{
+            font-family: Gill;
+            font-size: 15px;
+            text-decoration: none;
+            color: $white;
+            margin: auto;
+            padding-right: 5%;
+            border-right: 1px solid $site-blue;
+        }
+        #solo{
+            padding: 0;
+            border:none;
+        }
+    }
+}
